@@ -1,0 +1,50 @@
+.courseTimeline-container {
+  background-color: white;
+  width: 400px;
+  height: 600px;
+  padding: 20px;
+}
+.courseTimeline-header {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.course-title {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  color: #171f46;
+}
+.timer-icon {
+  width: 20px;
+}
+.duration {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: #171f46;
+}
+.course-description {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: #1e293b;
+}
+.tagList {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.tagitem {
+  padding: 10px 15px;
+  background-color: white;
+  color: black;
+  text-align: center;
+  border: none;
+  outline: none;
+}
